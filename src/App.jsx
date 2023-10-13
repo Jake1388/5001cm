@@ -1,12 +1,11 @@
 import { useState } from "react";
-
+import { Route, Routes } from 'react-router-dom';
+import Navbar from "./components/navbar";
+import "../src/style.css"
 function App() {
   return (
     <>
-      <div></div>
-      <h1>KOMODO HUB</h1>
-      <div></div>
-      <p></p>
+    <Navbar />
     </>
   );
 }
