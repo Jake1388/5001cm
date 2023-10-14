@@ -1,11 +1,14 @@
-import { useState } from "react";
-import { Route, Routes } from 'react-router-dom';
-import Navbar from "./components/navbar";
-import "../src/style.css"
+import { Route, Routes } from "react-router-dom";
+import HomePage from "./pages/homePage";
+
 function App() {
   return (
     <>
-    <Navbar />
+      <div className='container'>
+        <Routes>
+          <Route path='' element={<HomePage />}></Route>
+        </Routes>
+      </div>
     </>
   );
 }
