@@ -14,16 +14,22 @@ export default function Navbar() {
           <div className='navbar-right'>
             <ul className='navbar-options'>
               <li>
-                <a href=''>Home</a>
+                <a href='' className='navbar-link'>
+                  Home
+                </a>
               </li>
               <li>
-                <a href=''>About us</a>
+                <a href='' className='navbar-link'>
+                  About us
+                </a>
               </li>
               <li>
-                <a href=''>Articles</a>
+                <a href='' className='navbar-link'>
+                  Articles
+                </a>
               </li>
               <li>
-                <a href='' id='signin_btn'>
+                <a href='' id='signin_btn' className='navbar-link'>
                   Sign In
                 </a>
               </li>
