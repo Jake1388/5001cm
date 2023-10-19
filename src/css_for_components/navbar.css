@@ -60,4 +60,6 @@ a {
   background-color: #6100ff;
   padding: 0.2rem 1.5rem;
   color: white;
+  border: none;
+  cursor: pointer;
 }
