@@ -46,3 +46,38 @@ button {
   cursor: pointer;
   font-size: 30px;
 }
+
+.modal-login-body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  gap: 1rem;
+}
+
+.modal-login-body input {
+  padding: 10px 15px;
+  background-color: #d9d9d9;
+  border: none;
+  border-radius: 10px;
+  font-size: 24px;
+}
+
+.modal-email-body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  gap: 1rem;
+}
+
+.modal-email-body input,
+select {
+  padding: 10px 15px;
+  background-color: #d9d9d9;
+  border: none;
+  border-radius: 10px;
+  font-size: 14px;
+}
