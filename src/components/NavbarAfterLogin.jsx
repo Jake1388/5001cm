@@ -33,6 +33,11 @@ export default function NavbarAfterLogin() {
                 </li>
                 <li>
                   <a href='/Profile' className='navbar-link'>
+                    Articles
+                  </a>
+                </li>
+                <li>
+                  <a href='/Profile' className='navbar-link'>
                     Profile
                   </a>
                 </li>
