@@ -27,7 +27,7 @@ export default function NavbarAfterLogin() {
             <div className='navbar-right'>
               <ul className='navbar-options'>
                 <li>
-                  <a href='' className='navbar-link'>
+                  <a href='/AfterLogin' className='navbar-link'>
                     Home
                   </a>
                 </li>
