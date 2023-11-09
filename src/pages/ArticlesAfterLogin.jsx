@@ -1,10 +1,10 @@
 import NavbarAfterLogin from "../components/NavbarAfterLogin";
-import HomeAfterLogin from "../components/HomeAfterLogin";
-export default function AfterLogin() {
+import ArticlesAfterLogin from "../components/ArticlesAfterLogin";
+export default function ArticlesAfterLogin() {
   return (
     <>
       <NavbarAfterLogin />
-      <HomeAfterLogin />
+      <ArticlesAfterLogin />
     </>
   );
 }
