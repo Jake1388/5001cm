@@ -41,6 +41,11 @@ export default function Navbar() {
                     Articles
                   </a>
                 </li>
+                 <li>
+                  <a href='/AfterLogin' className='navbar-link'>
+                    Test
+                  </a>
+                </li>
                 <li>
                   <button
                     href=''
