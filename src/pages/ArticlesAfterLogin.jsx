@@ -6,7 +6,7 @@ export default function ArticlesAfterLogin() {
   return (
     <>
       <NavbarAfterLogin />
-      <ArticlesAfterLogin />
+      <LoginArticles />
       <Footer />
     </>
   );
