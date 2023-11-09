@@ -1,5 +1,5 @@
 import NavbarAfterLogin from "../components/NavbarAfterLogin";
-import ArticlesAfterLogin from "../components/ArticlesAfterLogin";
+import LoginArticles from "../components/LoginArticles";
 import Footer from "../components/Footer"
 
 export default function ArticlesAfterLogin() {

@@ -1,7 +1,7 @@
 import React from "react";
 import "../css_for_components/afterLogin.css";
 
-export default function HomeAfterLogin() {
+export default function LoginArticles() {
   return (
     <>
       <div className='afterLogin'>
